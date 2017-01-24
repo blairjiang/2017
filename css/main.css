@@ -176,3 +176,60 @@
 	-o-transform:translateY(0);
 	transform:translateY(0);
 }
+
+/*2017*/
+
+/*subtitle*/
+.subtitle{ font-size:.5rem; font-weight:100; text-transform:uppercase; letter-spacing:.08em}
+.subtitle .iconfont{ font-size:2.5em; margin-right:.3em;}
+.subtitle .t{ letter-spacing:.08em}
+.e_subtitle_1 .iconfont{ color:#231815}
+.e_subtitle_1 .t{ color:#000; font-size:4em}
+.e_subtitle_2 .icon,
+.e_subtitle_2 .t{ color:#fff;}
+.e_subtitle_2 .t{ font-size:4.25em}
+.e_subtitle_3 .icon,
+.e_subtitle_3 .t{ color:#000;}
+.e_subtitle_3 .iconfont{ font-size:1em}
+.e_subtitle_3 .t{ font-size:1.5em;}
+
+/*headnav*/
+.headnav{ position:absolute; z-index:1000; width:100%; left:0; top:0; font-size:.75rem; background-color:rgba(255,255,255,.8);}
+.headnav .inner{ max-width:1420px; margin:0 auto;}
+.headnav .inner .c1{ width:40%; float:left; padding-left:10px; box-sizing:border-box;}
+.headnav .inner .c2{ overflow:hidden; padding-right:10px; box-sizing:border-box;}
+.headnav .logo{ padding-top:1.2em}
+.headnav .logo .lk{ color:#000}
+.headnav .logo .lk:link,
+.headnav .logo .lk:active,
+.headnav .logo .lk:hover{ text-decoration:none;}
+.headnav .logo .iconfont{ font-size:2em}
+.headnav .option{ padding:1.2em 0;}
+@media (min-width: 768px){
+	.headnav .inner{ max-width:690px}
+
+	/*subtitle*/
+	.subtitle{ font-size:.75rem;}
+
+	/*logo*/
+	.logo{ font-size:.8rem}
+}
+@media (min-width: 1200px){
+	.headnav .inner{ max-width:1080px}
+
+	/*subtitle*/
+	.subtitle{ font-size:.875rem;}
+
+	/*logo*/
+	.logo{ font-size:1rem}
+}
+@media (min-width: 1600px){
+	.headnav .inner{ max-width:1440px}
+
+	/*subtitle*/
+	.subtitle{ font-size:1rem;}
+}
+
+#index_fourth{ background-color:#000; color:#9bb5c5; line-height:5rem}
+.logofoot{ font-size:2em;}
+.copyright{ font-size:1em;}
