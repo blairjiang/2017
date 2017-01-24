@@ -230,6 +230,22 @@
 	.subtitle{ font-size:1rem;}
 }
 
-#index_fourth{ background-color:#000; color:#9bb5c5; line-height:5rem}
+/* pagefoot
+----------------------------------------------------------------*/
+
+.pagefoot{ background-color:#000; color:#9bb5c5; line-height:5rem}
+.pagefoot .inner{ max-width:100%; margin:0 auto;}
+.pagefoot .inner .c1{ width:40%; float:left; padding-left:10px; box-sizing:border-box;}
+.pagefoot .inner .c2{ overflow:hidden; padding-right:10px; box-sizing:border-box;}
+
 .logofoot{ font-size:2em;}
 .copyright{ font-size:1em;}
+@media (min-width: 768px){
+	.pagefoot .inner{ max-width:690px}
+}
+@media (min-width: 1200px){
+	.pagefoot .inner{ max-width:1080px}
+}
+@media (min-width: 1600px){
+	.pagefoot .inner{ max-width:1440px}
+}
