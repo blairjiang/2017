@@ -19,6 +19,7 @@
 .navlist .lk:active,
 .navlist .lk:hover{ color:#f84197}
 
+.pg_banner{ position:relative;}
 .pg_banner_bd{ padding:3.5% 5%; margin:0 auto;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -140,7 +141,7 @@
 	.sidephone .c1{ float:left; width:67%}
 	.sidephone .c2{ position:absolute; right:-5%; width:35%; bottom:0; overflow:hidden;}
 
-	.pos_dots{ bottom:auto; top:50%; margin-top:-170px}
+	.pos_dots{}
 	.pos_dots .c1{ display:block}
 
 	.selfIntro{ background:url(../assets/images/spacer1.png) center center repeat-y; background-size:2px 30px; margin:0 auto; width:48%; max-width:880px;}
@@ -178,6 +179,17 @@
 }
 
 /*2017*/
+
+.switcher_l,
+.switcher_r{ z-index:99; font-size:.75rem; display:none; opacity:.9; position:absolute; top:50%; margin-top:-1em; padding:2.125em; width:6.25em; height:6.25em; background-color:rgba(0,0,0,.5); box-sizing:border-box;}
+.switcher_l i,
+.switcher_r i{ display:block; width:2em; height:2em; border:#fff 1px solid; border-top:none; border-right:none;}
+.switcher_l{ left:0; padding:2.125em 1.625em 2.125em 2.625em;}
+.switcher_r{ right:0; padding:2.125em 2.625em 2.125em 1.625em;}
+.switcher_l i{ transform:rotate(45deg); transform-origin:;}
+.switcher_r i{ transform:rotate(-135deg);}
+.switcher_l:hover,
+.switcher_r:hover{ opacity:1}
 
 /*subtitle*/
 .subtitle{ font-size:.5rem; font-weight:100; text-transform:uppercase; letter-spacing:.08em}
@@ -241,11 +253,20 @@
 .logofoot{ font-size:2em;}
 .copyright{ font-size:1em;}
 @media (min-width: 768px){
+
+	.switcher_l,
+	.switcher_r{ display:block;}
 	.pagefoot .inner{ max-width:690px}
 }
 @media (min-width: 1200px){
+
+	.switcher_l,
+	.switcher_r{ font-size:.875rem;}
 	.pagefoot .inner{ max-width:1080px}
 }
 @media (min-width: 1600px){
+
+	.switcher_l,
+	.switcher_r{ font-size:1rem;}
 	.pagefoot .inner{ max-width:1440px}
 }
