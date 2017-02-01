@@ -1,23 +1,12 @@
-body,img{ margin:0;}
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote,th,td,header,footer,nav,article{margin:0;padding:0}
-html,body{}
-html{overflow-y:scroll; -webkit-overflow-scrolling: touch;}
-header,footer,nav,article{ display: block;}
-table{border-collapse:collapse;border-spacing:0}
-img,video{border:0; max-width:100%; vertical-align:top}
-iframe{ vertical-align:top;}
-address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
-ol,ul{list-style:none}
-caption,th{text-align:left}
-h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
-body{ font:16px/1.7 Helvetica,Arial,sans-serif;}
+/* css reset
+----------------------------------------------------------------*/
+
+html{ font-size:100%}
+body{ line-height:1.7}
 input,textarea,select,button{ outline: none; resize:none; font:16px/1.7 Helvetica,Arial,sans-serif;}
-button{line-height:1.7;white-space:nowrap;vertical-align:middle;cursor:pointer}
-strong{font-weight:800}
 a{ text-decoration: none; outline: none; cursor: pointer;}
-a:link,label,body{ -webkit-tap-highlight-color:transparent; -webkit-focus-ring-color:transparent;}
+a:link,label,body{ -webkit-focus-ring-color:transparent;}
 a:hover{ text-decoration:none;}
-a:active{ background:none;}
 img{ vertical-align:top; max-width:100%;}
 
 /* 布局
@@ -134,6 +123,8 @@ body .pl0{ padding-left:0!important}
 /* 字体样式 */
 .tx_udl{ text-decoration:underline}
 .tx_del{ text-decoration:line-through}
+.tx_up{ text-transform:uppercase;}
+.tx_space{ letter-spacing:.08em}
 
 /* 对齐 */
 .tx_l{ text-align:left}

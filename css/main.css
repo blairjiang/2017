@@ -1,4 +1,4 @@
-.container{ min-height:400px;}
+.container{}
 
 .topnav{ position:relative; background:rgba(255,255,255,.95); box-shadow:rgba(0,0,0,.3) 0 0 5px; z-index:1000;
 	-webkit-transition:all .5s ease-in-out;
@@ -27,14 +27,14 @@
 	-ms-box-sizing:border-box;
 	box-sizing:border-box;
 }
-.pg_banner .tit{ font-size:1.5em;}
-.pg_banner .subtit{ font-size:1.125em}
+.pg_banner .tit{ font-size:1.5em; line-height:1.7}
+.pg_banner .subtit{ font-size:1.125em; text-transform:uppercase; letter-spacing:.08em}
 .pg_banner .tit,
 .pg_banner .subtit{}
 .pg_banner .dc{ line-height:1.5em}
-.pg_banner .com{ margin-top:5px}
+.pg_banner .com{ margin-top:5px; text-transform:uppercase;}
 
-.dotlist{ padding-left:20px}
+.dotlist{ padding-left:20px; margin-bottom:0}
 .dotlist li{ list-style:square;}
 
 .scewwrap{ position:relative; background:rgba(255,255,255,.6); border-radius:10px; overflow:hidden;
@@ -50,12 +50,12 @@
 .sidephone .c1{}
 .sidephone .c2{ text-align:center;}
 
-.mod{}
+.mod{ overflow:hidden;}
 .mod_bd{ padding:3.5% 5%; text-align:justify;}
 .mod .desc{ margin:5px auto 0;}
-.mod .tit{ font-family:century_gothicregular}
+.mod .tit{ font-family:"me-bold",helvetica,sans-serif; text-transform:uppercase; letter-spacing:.08em; margin:0; line-height:1.7}
 
-.imgWrap{ padding:10px 5% 0; text-align:center;}
+.imgWrap{ padding:10px 0 0; text-align:center;}
 .imgWrap .inner{ position:relative; display:inline-block; vertical-align:top}
 .imgWrap .inner .imgAni{ position:absolute; width:100%; height:100%; left:0; top:0}
 .imgWrap .inner .imgAni img{ max-width:100%; max-height:100%}
@@ -67,7 +67,7 @@
 
 .imgWrap .cols3 .area{}
 
-.pos_dots{ position:fixed; right:0; bottom:30px; width:50px; z-index:999;}
+.pos_dots{ display:none; position:fixed; right:0; bottom:30px; width:50px; z-index:999;}
 .pos_dots .c1{ display:none; padding:20px 0; background:rgba(0,0,0,.5); border-radius:18px 0 0 18px}
 .pos_dots .c1 .lk{ display:block; padding:10px 20px;}
 .pos_dots .c1 .lk .dot{ display:block; width:10px; height:10px; font-size:0; overflow:hidden; border-radius:5px; background-color:#999}
@@ -78,7 +78,7 @@
 .pos_dots .c2 .lk:active .arr,
 .pos_dots .c2 .lk:hover .arr{ background-position:0 0}
 
-.selfIntro{ margin:0 auto; padding:0 5%; line-height:1.8em; text-align:left;}
+.selfIntro{ margin:0 auto; padding:0 5%; line-height:1.8em; text-align:left; box-sizing:border-box;}
 .selfIntro .c1,
 .selfIntro .c2{ width:100%; float:left;}
 .selfIntro .t{ float:left; text-align:right; width:35%; padding-right:3%; font-weight:bold}
@@ -105,7 +105,7 @@
 	.navlist{ position:static; width:auto; background:none; box-shadow:none; float:right;-webkit-backdrop-filter:none;}
 	.navlist .item{ float:left; padding-top:30px}
 	.navlist .lk{ padding:12px 20px; font-size:1.25em}
-	.pg_banner_bd{ padding:121px 0 0; height:229px; max-width:1600px;
+	.pg_banner_bd{ padding:10% 0 3%; min-height:200px; max-width:1600px;
 		-webkit-box-sizing:content-box;
 		-moz-box-sizing:content-box;
 		-o-box-sizing:content-box;
@@ -116,8 +116,8 @@
 	.pg_banner .subtit{ margin-top:-15px; font-size:1.25em}
 	.pg_banner .com{ margin-top:25px}
 
-	.mod_bd{ padding:30px 0;}
-	.mod .desc{ margin:5px auto 0; width:62.5%; max-width:1000px;}
+	.mod_bd{ padding:2.5% 0;}
+	.mod .desc{ margin:5px auto 0; width:100%; max-width:1000px; box-sizing:border-box; padding:0 .7%;}
 
 	.imgWrap{ padding:25px 20px 0;}
 	.videoWrap{ width:100%; max-width:900px}
@@ -127,7 +127,7 @@
 	.imgWrap .cols3 .area{ width:33%; float:left;}
 	.imgWrap .cols3 .dotlist{ width:68%; margin:0 auto;}
 
-	.scewwrap .c1{ padding:0; position:absolute; overflow:hidden; left:0; top:0; height:100%; width:200px;
+	.scewwrap .c1{ padding:0; position:absolute; overflow:hidden; left:0; top:0; height:100%; width:240px;
 		background-image:url(../assets/images/scewbg.png);
 		background-image:-webkit-image-set(url(../assets/images/scewbg.png) 1x,url(../assets/images/scewbg@2x.png) 2x);
 		background-position:right 0;
@@ -144,30 +144,47 @@
 	.pos_dots{}
 	.pos_dots .c1{ display:block}
 
-	.selfIntro{ background:url(../assets/images/spacer1.png) center center repeat-y; background-size:2px 30px; margin:0 auto; width:48%; max-width:880px;}
+	.selfIntro{ background:url(../assets/images/spacer1.png) center center repeat-y; background-size:2px 30px; margin:0 auto; width:100%; max-width:880px;}
 	.selfIntro .c1,
 	.selfIntro .c2{ width:50%}
 	.selfIntro .t{ width:97%; padding-left:5%; text-align:left}
 	.selfIntro .c{ padding-left:5%}
 
 }
+@media screen and (min-width:768px){
+	.frameTbCon,
+	.copyright .bd,
+	.selfIntro,
+	.mod .desc{ max-width:690px;}
+}
 @media screen and (min-width:1200px){
+	.frameTbCon,
+	.copyright .bd,
+	.selfIntro,
+	.mod .desc{ max-width:1080px;}
 	.selfIntro .t{ width:25%; padding-left:3%; text-align:right}
 	.selfIntro .c{ padding-left:3%; padding-right:3%}
+}
+
+@media screen and (min-width:1600px){
+	.frameTbCon,
+	.copyright .bd,
+	.selfIntro,
+	.mod .desc{ max-width:1440px;}
 }
 
 
 .mod .imgWrap{ opacity:0;
 	-webkit-transform:translateY(10px);
-	-webkit-transition:all 1s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
 	-moz-transform:translateY(10px);
-	-moz-transition:all 1s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
 	-o-transform:translateY(10px);
-	-o-transition:all 1s ease-in-out;
+	-o-transition:all .5s ease-in-out;
 	-ms-transform:translateY(10px);
-	-ms-transition:all 1s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
 	transform:translateY(10px);
-	transition:all 1s ease-in-out;
+	transition:all .5s ease-in-out;
 }
 .active .mod .imgWrap,
 .active.mod .imgWrap{ opacity:1;
