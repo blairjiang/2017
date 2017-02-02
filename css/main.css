@@ -20,7 +20,7 @@
 .navlist .lk:hover{ color:#f84197}
 
 .pg_banner{ position:relative;}
-.pg_banner_bd{ padding:4.875em 5% 3.5%; margin:0 auto;
+.pg_banner_bd{ padding:2.5em 5% 3.5%; margin:0 auto;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-o-box-sizing:border-box;
@@ -105,7 +105,7 @@
 	.navlist{ position:static; width:auto; background:none; box-shadow:none; float:right;-webkit-backdrop-filter:none;}
 	.navlist .item{ float:left; padding-top:30px}
 	.navlist .lk{ padding:12px 20px; font-size:1.25em}
-	.pg_banner_bd{ padding:10% 0 3%; min-height:200px; max-width:1600px;
+	.pg_banner_bd{ padding:7% 0 3%; min-height:200px; max-width:1600px;
 		-webkit-box-sizing:content-box;
 		-moz-box-sizing:content-box;
 		-o-box-sizing:content-box;
@@ -198,7 +198,7 @@
 /*2017*/
 
 .switcher_l,
-.switcher_r{ z-index:99; font-size:.75rem; display:none; opacity:.9; position:absolute; top:50%; margin-top:-1em; padding:2.125em; width:6.25em; height:6.25em; background-color:rgba(0,0,0,.5); box-sizing:border-box;}
+.switcher_r{ font-size:.75rem; display:none; opacity:.9; position:fixed; z-index:1000; top:50%; margin-top:-3.125em; padding:2.125em; width:6.25em; height:6.25em; background-color:rgba(0,0,0,.5)}
 .switcher_l i,
 .switcher_r i{ display:block; width:2em; height:2em; border:#fff 1px solid; border-top:none; border-right:none;}
 .switcher_l{ left:0; padding:2.125em 1.625em 2.125em 2.625em;}
@@ -224,39 +224,25 @@
 
 /*headnav*/
 .headnav{ position:absolute; z-index:1000; width:100%; left:0; top:0; font-size:.75rem; background-color:rgba(255,255,255,.8);}
-.headnav .inner{ max-width:1420px; margin:0 auto;}
-.headnav .inner .c1{ width:40%; float:left; padding-left:10px; box-sizing:border-box;}
-.headnav .inner .c2{ overflow:hidden; padding-right:10px; box-sizing:border-box;}
-.headnav .logo{ padding-top:1.2em}
-.headnav .logo .lk{ color:#000}
+.headnav .logo{ padding:.5em 0}
+.headnav .logo .lk{ line-height:1; display:inline-block; vertical-align:top; color:#000}
 .headnav .logo .lk:link,
 .headnav .logo .lk:active,
 .headnav .logo .lk:hover{ text-decoration:none;}
-.headnav .logo .iconfont{ font-size:2em}
-.headnav .option{ padding:1.2em 0;}
+.headnav .logo .iconfont{ font-size:2em; vertical-align:middle; margin-right:.3em}
+.headnav .logo .t{ display:none; font-size:2em; vertical-align:middle; text-transform:uppercase; letter-spacing:.08em}
+.headnav .option{ padding:.5em 0; text-align:right}
+.headnav .option .iconfont,
+.headnav .option .t{ vertical-align:middle;}
+.headnav .option .iconfont{ margin-right:.5em}
+.headnav .option .t{ font-size:1.25em; text-transform:uppercase; letter-spacing:.08em}
+
 @media (min-width: 768px){
-	.headnav .inner{ max-width:690px}
-
-	/*subtitle*/
-	.subtitle{ font-size:.75rem;}
-
-	/*logo*/
-	.logo{ font-size:.8rem}
+	.headnav{ font-size:1rem;}
 }
 @media (min-width: 1200px){
-	.headnav .inner{ max-width:1080px}
-
-	/*subtitle*/
-	.subtitle{ font-size:.875rem;}
-
-	/*logo*/
-	.logo{ font-size:1rem}
 }
 @media (min-width: 1600px){
-	.headnav .inner{ max-width:1440px}
-
-	/*subtitle*/
-	.subtitle{ font-size:1rem;}
 }
 
 /* pagefoot
