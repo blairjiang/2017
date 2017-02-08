@@ -102,21 +102,38 @@ a.c_a2:active{ color:#366}
 
 /* 底纹
  */
-.img_bg1{ background:#3c1d0d url(../assets/images/img_bg1.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg2{ background:#332623 url(../assets/images/img_bg2.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg3{ background:#e22120 url(../assets/images/img_bg3.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg4{ background:#ffce23 url(../assets/images/img_bg4.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg5{ background:#5d4139 url(../assets/images/img_bg5.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg6{ background:#e3241d url(../assets/images/img_bg6.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
+.img_bg1{ background:#3c1d0d url(../assets/images/img_bg1.jpg) center center no-repeat; background-size:cover;}
+.img_bg2{ background:#332623 url(../assets/images/img_bg2.jpg) center center no-repeat; background-size:cover;}
+.img_bg3{ background:#e22120 url(../assets/images/img_bg3.jpg) center center no-repeat; background-size:cover;}
+.img_bg4{ background:#ffce23 url(../assets/images/img_bg4.jpg) center center no-repeat; background-size:cover;}
+.img_bg5{ background:#5d4139 url(../assets/images/img_bg5.jpg) center center no-repeat; background-size:cover;}
+.img_bg6{ background:#e3241d url(../assets/images/img_bg6.jpg) center center no-repeat; background-size:cover;}
 .img_bg7{ background:#eeebef url(../assets/images/pg_banner_weshow_ios7d.png) center top no-repeat;}
-.img_bg8{ background:#eeebef url(../assets/images/img_bg8.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg9{ background:#a3a09e url(../assets/images/img_bg9.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg10{ background:#43348a url(../assets/images/img_bg10.png) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg11{ background:#43348a url(../assets/images/img_bg11.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg12{ background:#78c328 url(../assets/images/img_bg12.png) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg13{ background:#405172 url(../assets/images/img_bg13.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg14{ background:#73d3e2 url(../assets/images/img_bg14.jpg) center center no-repeat; background-size:cover; background-attachment:fixed;}
-.img_bg15{ background:#466ebd url(../assets/images/img_bg15.png) center center no-repeat; background-size:cover; background-attachment:fixed;}
+.img_bg8{ background:#eeebef url(../assets/images/img_bg8.jpg) center center no-repeat; background-size:cover;}
+.img_bg9{ background:#a3a09e url(../assets/images/img_bg9.jpg) center center no-repeat; background-size:cover;}
+.img_bg10{ background:#43348a url(../assets/images/img_bg10.png) center center no-repeat; background-size:cover;}
+.img_bg11{ background:#43348a url(../assets/images/img_bg11.jpg) center center no-repeat; background-size:cover;}
+.img_bg12{ background:#78c328 url(../assets/images/img_bg12.png) center center no-repeat; background-size:cover;}
+.img_bg13{ background:#405172 url(../assets/images/img_bg13.jpg) center center no-repeat; background-size:cover;}
+.img_bg14{ background:#73d3e2 url(../assets/images/img_bg14.jpg) center center no-repeat; background-size:cover;}
+.img_bg15{ background:#466ebd url(../assets/images/img_bg15.png) center center no-repeat; background-size:cover;}
+
+@media screen and (min-width:1200px){
+	.img_bg1,
+	.img_bg2,
+	.img_bg3,
+	.img_bg4,
+	.img_bg5,
+	.img_bg6,
+	.img_bg8,
+	.img_bg9,
+	.img_bg10,
+	.img_bg11,
+	.img_bg12,
+	.img_bg13,
+	.img_bg14,
+	.img_bg15{ background-attachment:fixed;}
+}
 
 .hr1{ height:2px; width:180px; margin:20px auto; background:url(../assets/images/spacer2.png) 0 0 repeat-x; background-size:30px 2px;}
 .hr2{ background:none; border:none; border-top:#d8d1db 1px solid; margin:0 5%;
