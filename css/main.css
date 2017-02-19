@@ -161,7 +161,7 @@
 	.frameTbCon,
 	.copyright .bd,
 	.selfIntro,
-	.mod .desc{ max-width:1080px;}
+	.mod .desc{ max-width:1180px;}
 	.selfIntro .t{ width:25%; padding-left:3%; text-align:right}
 	.selfIntro .c{ padding-left:3%; padding-right:3%}
 }
@@ -170,7 +170,7 @@
 	.frameTbCon,
 	.copyright .bd,
 	.selfIntro,
-	.mod .desc{ max-width:1440px;}
+	.mod .desc{ max-width:1540px;}
 }
 
 
