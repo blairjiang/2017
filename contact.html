@@ -13,7 +13,8 @@
 <link rel="stylesheet" href="css/main.css" />
 <link rel="stylesheet" href="css/skin.css" />
 <style>
-body{ background:#f0dcd1 url(./assets/images/index_bg.jpg); background-size:cover; background-attachment:fixed;}
+body{ background:#f0dcd1 url(./assets/images/index_bg.jpg); background-size:cover;}
+.unmobile{ background-attachment:fixed;}
 .topnav{
 	-webkit-transition:all .3s ease-in-out;
 	-moz-transition:all .3s ease-in-out;
@@ -145,6 +146,12 @@ $(function() {
 	</div>
 </div>
 <script>
+var u = navigator.userAgent;
+var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+if(!isiOS && !isAndroid){
+	$('body').addClass('unmobile');
+}
 function topnavbg(){
 	if($(document).width() > 768){
 	    var scrollPos = $(document).scrollTop();

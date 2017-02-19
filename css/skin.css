@@ -119,20 +119,20 @@ a.c_a2:active{ color:#366}
 .img_bg15{ background:#466ebd url(../assets/images/img_bg15.png) center center no-repeat; background-size:cover;}
 
 @media screen and (min-width:1200px){
-	.img_bg1,
-	.img_bg2,
-	.img_bg3,
-	.img_bg4,
-	.img_bg5,
-	.img_bg6,
-	.img_bg8,
-	.img_bg9,
-	.img_bg10,
-	.img_bg11,
-	.img_bg12,
-	.img_bg13,
-	.img_bg14,
-	.img_bg15{ background-attachment:fixed;}
+	.unmobile .img_bg1,
+	.unmobile .img_bg2,
+	.unmobile .img_bg3,
+	.unmobile .img_bg4,
+	.unmobile .img_bg5,
+	.unmobile .img_bg6,
+	.unmobile .img_bg8,
+	.unmobile .img_bg9,
+	.unmobile .img_bg10,
+	.unmobile .img_bg11,
+	.unmobile .img_bg12,
+	.unmobile .img_bg13,
+	.unmobile .img_bg14,
+	.unmobile .img_bg15{ background-attachment:fixed;}
 }
 
 .hr1{ height:2px; width:180px; margin:20px auto; background:url(../assets/images/spacer2.png) 0 0 repeat-x; background-size:30px 2px;}

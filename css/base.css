@@ -2,6 +2,9 @@
 ----------------------------------------------------------------*/
 
 html{ font-size:100%}
+@media screen and (min-width:1200px){
+  html{ font-size:1.09rem}
+}
 body{ line-height:1.7}
 input,textarea,select,button{ outline: none; resize:none; font:16px/1.7 Helvetica,Arial,sans-serif;}
 a{ text-decoration: none; outline: none; cursor: pointer;}
@@ -289,5 +292,5 @@ body .pl0{ padding-left:0!important}
 .iconsvg-icon-wechat { width: 1.0625em; height: 1em; background-position: -10.5em 0; }
 
 @media screen and (min-width:768px){
-	
+  
 }
