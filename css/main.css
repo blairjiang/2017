@@ -84,10 +84,10 @@
 .selfIntro .t{ float:left; text-align:right; width:35%; padding-right:3%; font-weight:bold}
 .selfIntro .c{ overflow:hidden}
 
-.copyright .bd{ margin:0 auto; max-width:1200px; border-top:#a13696 1px solid; color:#a13696}
+.copyright .bd{ margin:0 auto; max-width:1000px; border-top:#a13696 1px solid; color:#a13696}
 
 .frameTb{ width:100%}
-.frameTbCon{ margin:0 auto; max-width:1200px}
+.frameTbCon{ margin:0 auto; max-width:1000px}
 
 @media screen and (min-width:768px){
 
@@ -99,7 +99,7 @@
 	.frameTbCon{ width:75%; margin-top:200px;/* padding-bottom:5%*/}
 
 	.topnav{ position:fixed; top:0; left:0; right:0; width:100%;}
-	.topnav_bd{ width:75%; max-width:1200px; padding:0 20px;}
+	.topnav_bd{ width:75%; max-width:1000px; padding:0 20px;}
 	.topnav .logo{ float:left; padding-top:27px; padding-bottom:3px}
 
 	.navlist{ position:static; width:auto; background:none; box-shadow:none; float:right;-webkit-backdrop-filter:none;}
@@ -157,7 +157,7 @@
 	.selfIntro,
 	.mod .desc{ max-width:690px;}
 }
-@media screen and (min-width:1200px){
+@media screen and (min-width:1000px){
 	.frameTbCon,
 	.copyright .bd,
 	.selfIntro,
@@ -247,7 +247,7 @@
 	.headnav .option .item .lk{ font-size:1.5em;}
 	.headnav .option .item .lk:hover{ color:#ff5151}
 }
-@media (min-width: 1200px){
+@media (min-width: 1000px){
 }
 @media (min-width: 1600px){
 	.headnav{ font-size:1rem}
@@ -268,7 +268,7 @@
 	.switcher_l,
 	.switcher_r{ display:block;}
 }
-@media (min-width: 1200px){
+@media (min-width: 1000px){
 
 	.switcher_l,
 	.switcher_r{ font-size:.875rem;}

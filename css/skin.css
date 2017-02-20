@@ -118,7 +118,7 @@ a.c_a2:active{ color:#366}
 .img_bg14{ background:#73d3e2 url(../assets/images/img_bg14.jpg) center center no-repeat; background-size:cover;}
 .img_bg15{ background:#466ebd url(../assets/images/img_bg15.png) center center no-repeat; background-size:cover;}
 
-@media screen and (min-width:1200px){
+@media screen and (min-width:1000px){
 	.unmobile .img_bg1,
 	.unmobile .img_bg2,
 	.unmobile .img_bg3,

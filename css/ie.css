@@ -1,5 +1,5 @@
 .topnav{ position:absolute; top:0; left:0; right:0; width:100%;}
-.topnav_bd{ width:75%; max-width:1200px; padding:0 20px;}
+.topnav_bd{ width:75%; max-width:1000px; padding:0 20px;}
 .topnav .logo{ float:left; padding-top:30px; padding-bottom:0}
 
 .navlist{ position:static; width:auto; background:none; box-shadow:none; float:right;-webkit-backdrop-filter:none;}
