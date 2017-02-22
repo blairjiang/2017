@@ -408,3 +408,7 @@
 
 	.pg_banner_bd{ padding-top:7em}
 }
+@keyframes bgbar{
+	0%{ background-position:0rem 0}
+	100%{ background-position:4rem 0}
+}
