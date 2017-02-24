@@ -116,7 +116,7 @@ a.c_a2:active{ color:#366}
 .img_bg12{ background:#78c328 url(../assets/images/img_bg12.png) center center no-repeat; background-size:cover;}
 .img_bg13{ background:#405172 url(../assets/images/img_bg13.jpg) center center no-repeat; background-size:cover;}
 .img_bg14{ background:#73d3e2 url(../assets/images/img_bg14.jpg) center center no-repeat; background-size:cover;}
-.img_bg15{ background:#466ebd url(../assets/images/img_bg15.png) center center no-repeat; background-size:cover;}
+.img_bg15{ background:#466ebd url(../assets/images/img_bg15.png) center bottom no-repeat; background-size:cover;}
 
 @media screen and (min-width:1000px){
 	.unmobile .img_bg1,
