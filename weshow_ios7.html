@@ -376,20 +376,6 @@ if(!isiOS && !isAndroid){
 	$('body').addClass('unmobile');
 }
 
-// 判断是否支持video标签
-var hasVideo = !!(document.createElement('video').canPlayType);
-if(hasVideo){
-	$('#supportFlash').remove();
-	var video = $('#supportVideo')[0];
-	// video.currentTime = 0;
-	$('#videocontrol').on('click',function(){
-		$(this).css('display','none');
-		video.play();
-	});
-}else{
-	$('#supportVideo').remove();
-}
-
 function onScroll(){
     var scrollPos = $(document).scrollTop();
 

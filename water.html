@@ -352,11 +352,11 @@ $(function() {
 				<p class="tx_16 tx_mebook">This video shows the major functions and their flow, including how to send wishes by consuming exercise record, the personal center, the invitation, etc.</p>
 				<div class="videoWrap">
 					<img class="placer" src="assets/images/placer.png" />
-					<video id="supportVideo" class="video" loop="loop">
+					<!-- <video id="supportVideo" class="video" loop="loop">
 						<source src="assets/media/paper_airplane.mp4" type="video/mp4" />
-					</video>
+					</video> -->
 					<div id="videocontrol" class="control"></div>
-					<embed id="supportFlash" class="video" src="http://player.youku.com/player.php/sid/XMTQ4MTQwMjYwNA==/v.swf" allowFullScreen="true" quality="high" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+					<iframe class="video" src="https://player.vimeo.com/video/531723676" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -544,20 +544,6 @@ var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终
 var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
 if(!isiOS && !isAndroid){
 	$('body').addClass('unmobile');
-}
-
-// 判断是否支持video标签
-var hasVideo = !!(document.createElement('video').canPlayType);
-if(hasVideo){
-	$('#supportFlash').remove();
-	var video = $('#supportVideo')[0];
-	// video.currentTime = 0;
-	$('#videocontrol').on('click',function(){
-		$(this).css('display','none');
-		video.play();
-	});
-}else{
-	$('#supportVideo').remove();
 }
 
 function onScroll(){
